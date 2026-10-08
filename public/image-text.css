@@ -36,9 +36,8 @@
 .image-text .grid-start,
 .image-text .grid-end {
     display: flex;
-    gap: 0;
+    gap: 2rem;
     align-items: stretch;
-    border: 1px solid var(--pico-muted-border-color);
     border-radius: calc(var(--pico-border-radius) * 4);
     overflow: hidden;
 }

@@ -49,11 +49,12 @@ class SolidDemo extends AbstractDemo
         'house-dusk' => ['photo-1600585154340-be6161a56a0c', 'Extension at dusk', 'Contemporary home extension with lit floor-to-ceiling windows at dusk'],
         'insulation' => ['photo-1607400201889-565b1ee75f8e', 'Insulating the walls', 'Builder fitting mineral wool insulation between timber studs'],
         'kitchen' => ['photo-1556911220-bff31c812dba', 'New kitchen', 'Bright fitted kitchen with white units, a marble worktop and fresh produce'],
+        'kitchen-old' => ['photo-1717331822162-74e5eaf4d038', 'Kitchen before the extension', 'Narrow dated galley kitchen with green units, an old cooker and a small window'],
         'living' => ['photo-1600607687939-ce8a6c25118c', 'Open-plan living area', 'Open-plan living area with a timber wall, sofa and kitchen beyond'],
+        'loft-old' => ['photo-1553969536-7abe08c6132d', 'Loft before conversion', 'Bare unconverted loft with exposed rafters and loose floorboards'],
         'painters' => ['photo-1574359411659-15573a27fd0c', 'Exterior painting', 'Decorators on ladders painting the timber facade of a house'],
         'plans' => ['photo-1503387762-592deb58ef4e', 'Planning the build', 'Site manager drawing on building plans with a pencil and a rolled drawing'],
         'roof' => ['photo-1632759145351-1d592919f522', 'Roof work', 'Roofer working on the pitched roof of a brick house with a ladder'],
-        'room' => ['photo-1581858726788-75bc0f6a952d', 'Room before fit-out', 'Empty room with bare walls and a timber floor before the fit-out'],
         'site' => ['photo-1504307651254-35680f356dfd', 'Foundations', 'Builders placing steel reinforcement for a concrete slab'],
     ];
 
@@ -204,7 +205,7 @@ class SolidDemo extends AbstractDemo
             'path' => 'roundhay-extension',
         ], 'A kitchen that finally fits the family',
             "Sarah and James had a narrow galley kitchen and a dining room nobody used. We knocked through, added a 5 metre single storey extension and gave the house one big room that opens onto the garden.\n\nThe steel went in over a weekend so the family could stay at home throughout. Two roof lanterns bring daylight into the middle of the plan and the bi-fold doors run the full width of the back wall.",
-            'house', ['room', 'living'],
+            'house', ['kitchen-old', 'living'],
             [
                 ['title' => '14', 'text' => 'Weeks from groundworks to handover'],
                 ['title' => '32 m²', 'text' => 'Additional floor space'],
@@ -225,7 +226,7 @@ class SolidDemo extends AbstractDemo
             'path' => 'headingley-loft',
         ], 'A main bedroom under the roof',
             "The Victorian terrace had three bedrooms and a growing family. A rear dormer turned the dusty loft into a main bedroom with an en suite shower room and built-in storage under the eaves.\n\nWe worked from scaffolding at the back of the house, so the stairs were only opened up in the final two weeks. Planning permission wasn't needed; we handled the building regulations and the party wall notices.",
-            'attic', ['room', 'attic'],
+            'attic', ['loft-old', 'attic'],
             [
                 ['title' => '9', 'text' => 'Weeks from scaffold up to scaffold down'],
                 ['title' => '+1', 'text' => 'Bedroom with en suite'],

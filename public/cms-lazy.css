@@ -210,6 +210,10 @@ footer.cms-content > :nth-child(odd) {
     background-color: var(--pico-contrast);
 }
 
+footer.cms-content {
+    padding-top: 2rem;
+}
+
 footer.cms-content .container {
     padding-block: 0;
 }

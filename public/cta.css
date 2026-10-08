@@ -4,8 +4,8 @@
 
 .cta .container {
     max-width: 64rem;
-    margin-inline: auto;
-    padding: clamp(3rem, 7vw, 5rem) min(6vw, 4rem);
+    margin: 4rem auto;
+    padding: 4rem;
     background-color: var(--solid-dark);
     border-top: 0.5rem solid transparent;
     border-image: var(--solid-stripe) 1;
@@ -13,10 +13,11 @@
 }
 
 .cms-content > .cta .container {
-    padding: clamp(3rem, 7vw, 5rem) min(6vw, 4rem);
+    padding: 4rem;
 }
 
 .cta .title {
+    margin-top: 0;
     margin-bottom: 1.25rem;
     color: #FFFFFF;
 }
