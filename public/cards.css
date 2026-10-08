@@ -46,7 +46,6 @@
     transition: box-shadow 0.2s ease, transform 0.2s ease;
     text-align: start;
     overflow: hidden;
-    padding: 0 0 1.75rem;
 }
 
 .cards .card-item:hover {
@@ -55,15 +54,7 @@
 }
 
 .cards .card-item .card-text {
-    padding: 0 1.75rem;
-}
-
-.cards .card-item > :is(picture, .card-image) + .card-text {
-    padding-top: 0.5rem;
-}
-
-.cards .card-item:not(:has(> :is(picture, .card-image))) {
-    padding-top: 1.75rem;
+    padding: 1rem 1.75rem;
 }
 
 .cards .card-item picture.image {

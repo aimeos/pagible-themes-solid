@@ -595,7 +595,7 @@ SVG;
             ]],
             ['id' => Utils::uid(), 'type' => 'slideshow', 'group' => 'main', 'data' => [
                 'title' => 'On site',
-                'files' => array_map( fn( $key ) => ['id' => $this->img( $key ), 'type' => 'file'], $photos ),
+                'files' => array_map( fn( $key ) => ['id' => $this->cropped( $key, 1500, 1000 ), 'type' => 'file'], $photos ),
             ]],
             ['id' => Utils::uid(), 'type' => 'cta', 'group' => 'main', 'data' => [
                 'title' => 'Thinking about something similar?',
